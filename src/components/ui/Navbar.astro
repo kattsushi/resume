@@ -5,6 +5,7 @@ import SocialIcons from './SocialIcons.astro'
 import ProfilePictures from '@/assets/profile_pictures.jpg'
 import { getCollection } from 'astro:content'
 import { template } from '@/settings'
+import DarkLightController from './DarkLightController.astro'
 
 const isBlogPopulated = await getCollection('blog').then(collection => collection.length > 0)
 
@@ -42,8 +43,12 @@ const {fullName, title} = profile
                         <a href={`${template.base}/blog/1`} class='text-lg'>Blog</a>
 </li>
                     }
-				</ul>
-			</div>
+        </ul>
+      </div>
+      <div class='mt-8 w-8 align-center'>
+        <DarkLightController/>
+      </div>
+    
 		</div>
 		<div class='mx-4'>
 			<SocialIcons/>
