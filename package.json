@@ -1,6 +1,7 @@
 {
   "name": "andresjimenez-resume",
   "type": "module",
+  "pricing": "Free",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
