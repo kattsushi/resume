@@ -35,14 +35,14 @@ export const social = {
 };
 
 export const template = {
-	website_url: "https://andresdavid.dev", // Update with your actual domain
+	website_url: "https://kattsushi.github.io/resume", // GitHub Pages URL
 	menu_left: false,
 	transitions: true,
 	lightTheme: "light",
 	darkTheme: "dark",
 	excerptLength: 200,
 	postPerPage: 3,
-	base: "",
+	base: "/resume",
 };
 
 export const seo = {
