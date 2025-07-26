@@ -1,10 +1,24 @@
 export const profile = {
 	fullName: "Andres David Jimenez Sulbaran",
-	title: "FullStackTypescript Developer",
+	title: "TypeScript Developer",
 	institute: "",
-	author_name: "AJ", // Author name to be highlighted in the papers section
+	author_name: "Andres Jimenez", // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
+		{ 
+			title: 'Full Stack Development', 
+			description: 'Specializing in Node.js, React, Angular, TypeScript, and SQL/NoSQL databases with 10+ years of experience', 
+			field: 'computer-science' 
+		},
+		{ 
+			title: 'Microservices Architecture', 
+			description: 'Expert in building scalable applications using Effect-TS, microservices, and Domain-Driven Design (DDD)', 
+			field: 'computer-science' 
+		},
+		{ 
+			title: 'API Development & Security', 
+			description: 'Skilled in NestJS/Express, OIDC, multi-tenant authentication, and performance optimization', 
+			field: 'computer-science' 
+		},
 	],
 };
 
@@ -21,18 +35,18 @@ export const social = {
 };
 
 export const template = {
-	website_url: "https://localhost:4321", // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
+	website_url: "https://andresdavid.dev", // Update with your actual domain
 	menu_left: false,
 	transitions: true,
-	lightTheme: "light", // Select one of the Daisy UI Themes or create your own
-	darkTheme: "dark", // Select one of the Daisy UI Themes or create your own
+	lightTheme: "light",
+	darkTheme: "dark",
 	excerptLength: 200,
 	postPerPage: 3,
-	base: "", // Repository name starting with /
+	base: "",
 };
 
 export const seo = {
-	default_title: "Andres Jimenez Resume",
-	default_description: "Andres Jimenez Resume",
+	default_title: "Andres David Jimenez - TypeScript Developer",
+	default_description: "Full Stack TypeScript Developer with 10+ years of experience in Node.js, React, Angular, and microservices architecture",
 	default_image: "",
 };

@@ -8,20 +8,20 @@ import {RESEARCH_ICONS} from "@/data/researchIcons";
 const { research_areas } = profile;
 ---
 
-<Layout title="Research | Dr. Marie Curie">
+<Layout title="Technical Expertise | Andres Jimenez">
   <div class="prose max-w-none">
-    <h1 class="text-3xl font-bold mb-8">Research Statement</h1>
+    <h1 class="text-3xl font-bold mb-8">Technical Expertise</h1>
 
     <div class="mb-12">
       <p class="text-lg mb-6">
-        My research focuses on groundbreaking investigations into radioactivity and the discovery of new radioactive elements. Through meticulous experimental techniques and innovative methodologies, I aim to advance our understanding of radioactive phenomena and their applications in both physics and chemistry.
+        As a seasoned TypeScript developer with over 10 years of experience, I specialize in building robust, scalable web applications using modern technologies and architectural patterns. My expertise spans full-stack development, with a particular focus on creating maintainable, type-safe solutions.
       </p>
       <p class="text-lg mb-6">
-        This interdisciplinary approach has led to significant discoveries, including the isolation of polonium and radium, contributing to the foundation of modern nuclear physics and radiochemistry.
+        I'm passionate about leveraging cutting-edge technologies like Effect-TS, microservices architecture, and Domain-Driven Design to solve complex business problems while ensuring optimal performance and security.
       </p>
     </div>
 
-    <h2 class="text-2xl font-bold mb-6">Research Areas</h2>
+    <h2 class="text-2xl font-bold mb-6">Core Competencies</h2>
     <div class="grid gap-8 mb-12">
       {
         research_areas.map((area) => (
@@ -50,20 +50,24 @@ const { research_areas } = profile;
       }
     </div>
 
-    <List listTitle="Current Projects" listItems={[
+    <List listTitle="Current Focus Areas" listItems={[
       {
-        title: "Radioactivity Studies",
-        description: "Investigation of radioactive properties in uranium minerals and isolation of new radioactive elements."
+        title: "Microservices Architecture",
+        description: "Designing and implementing scalable microservices using NestJS, with emphasis on clean architecture and efficient inter-service communication."
       },
       {
-        title: "Measurement Techniques",
-        description: "Development of precise methods for measuring radioactive emissions and their properties."
+        title: "Multi-tenant Applications",
+        description: "Building secure, scalable multi-tenant solutions with proper data isolation and OAuth2 authentication systems."
+      },
+      {
+        title: "Performance Optimization",
+        description: "Implementing advanced state management, caching strategies, and performance monitoring for high-traffic applications."
       }
     ]} />
 
-    <h2 class="text-2xl font-bold mb-6">Research Impact</h2>
+    <h2 class="text-2xl font-bold mb-6">Professional Impact</h2>
     <p class="text-lg mb-6">
-      My research has opened new frontiers in radioactivity studies, leading to practical applications in both scientific research and medical treatments. The discoveries have revolutionized our understanding of atomic structure and radioactive decay processes.
+      Throughout my career, I've successfully led complex migrations from monolithic to microservices architectures, implemented real-time dashboards with advanced analytics, and mentored development teams in best practices. My work has consistently focused on delivering maintainable, secure, and performant solutions that scale with business needs.
     </p>
   </div>
 </Layout>
